@@ -19,6 +19,15 @@ result = add(5, 6, 3, 8, 9)
 print(result)
 
 
+# keyword arguments
+def add(name, age):
+    print("name: ", name)
+    print("age: ", age)
+
+
+add("navin", age=30)
+
+
 # keyword length arguments
 def add(name, **kwrlargs):
     print("name: ", name)
