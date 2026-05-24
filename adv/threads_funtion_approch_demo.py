@@ -1,3 +1,5 @@
+# function approach is the pythonic way
+
 from time import sleep
 from threading import Thread
 
